@@ -1,4 +1,4 @@
-package info.shkryl.ClassAndObject;
+package info.shkryl.classAndObject;
 
 public class Main {
     public static void main(String[] args) {

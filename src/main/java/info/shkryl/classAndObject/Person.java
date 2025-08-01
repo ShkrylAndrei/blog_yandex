@@ -1,4 +1,4 @@
-package info.shkryl.ClassAndObject;
+package info.shkryl.classAndObject;
 
 public class Person {
     // Поля класса
