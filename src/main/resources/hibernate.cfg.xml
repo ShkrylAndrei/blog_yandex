@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+    <session-factory>
+        <!-- Диалект: какой язык SQL понимает база -->
+        <property name="hibernate.dialect">org.hibernate.dialect.H2Dialect</property>
+
+        <!-- URL базы данных -->
+        <property name="hibernate.connection.url">jdbc:h2:mem:testdb</property>
+
+        <!-- Драйвер -->
+        <property name="hibernate.connection.driver_class">org.h2.Driver</property>
+
+        <!-- Логин и пароль -->
+        <property name="hibernate.connection.username">sa</property>
+        <property name="hibernate.connection.password"></property>
+
+        <!-- Показывать SQL в консоли -->
+        <property name="hibernate.show_sql">true</property>
+
+        <!-- Форматировать SQL -->
+        <property name="hibernate.format_sql">true</property>
+
+        <!-- Автоматически создавать/обновлять таблицы -->
+        <property name="hibernate.hbm2ddl.auto">update</property>
+
+        <!-- Регистрируем наши сущности -->
+        <mapping class="info.shkryl.hibernate.example1.User"/>
+    </session-factory>
+</hibernate-configuration>
