@@ -29,5 +29,7 @@
 
         <!-- Регистрируем наши сущности -->
         <mapping class="info.shkryl.hibernate.example1.User"/>
+        <mapping class="info.shkryl.hibernate.example5.UserOfSystem"/>
+        <mapping class="info.shkryl.hibernate.example5.UserProfile"/>
     </session-factory>
 </hibernate-configuration>
