@@ -1,6 +1,6 @@
 package info.shkryl.hibernate.example6;
 
-import jakarta.persistence.*;
+import javax.persistence.*;
 
 public class Book {
     @Id

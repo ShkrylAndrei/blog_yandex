@@ -1,6 +1,6 @@
 package info.shkryl.hibernate.example9;
 
-import jakarta.persistence.*;
+import javax.persistence.*;
 
 @Entity
 @NamedQuery(

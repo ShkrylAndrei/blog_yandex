@@ -1,6 +1,6 @@
 package info.shkryl.hibernate.example8;
 
-import jakarta.persistence.Query;
+import javax.persistence.*;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;

@@ -1,6 +1,6 @@
 package info.shkryl.hibernate.example8;
 
-import jakarta.persistence.*;
+import javax.persistence.*;
 
 @Entity
 @Table(name = "products")

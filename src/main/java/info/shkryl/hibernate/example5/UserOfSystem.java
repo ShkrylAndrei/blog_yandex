@@ -1,6 +1,6 @@
 package info.shkryl.hibernate.example5;
 
-import jakarta.persistence.*;
+import javax.persistence.*;
 
 @Entity
 public class UserOfSystem {

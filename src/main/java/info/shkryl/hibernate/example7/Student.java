@@ -1,6 +1,6 @@
 package info.shkryl.hibernate.example7;
 
-import jakarta.persistence.*;
+import javax.persistence.*;
 
 import java.util.ArrayList;
 import java.util.List;

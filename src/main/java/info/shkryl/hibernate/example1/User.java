@@ -1,6 +1,6 @@
 package info.shkryl.hibernate.example1;
 
-import jakarta.persistence.*;
+import javax.persistence.*;
 
 // Указывает, что этот класс — сущность (таблица в БД)
 @Entity
