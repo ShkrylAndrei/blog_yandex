@@ -1,4 +1,4 @@
-package info.shkryl.SpringApplicationEvents_rename;
+package info.shkryl.springApplicationEvents;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
