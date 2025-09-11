@@ -1,4 +1,4 @@
-package info.shkryl.SpringApplicationEvents;
+package info.shkryl.SpringApplicationEvents_rename;
 
 import info.shkryl.buyingFlyTicket.entity.Flight;
 import info.shkryl.buyingFlyTicket.repository.FlightRepository;

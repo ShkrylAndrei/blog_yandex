@@ -1,4 +1,4 @@
-package info.shkryl.SpringApplicationEvents;
+package info.shkryl.SpringApplicationEvents_rename;
 
 import org.springframework.context.event.EventListener;
 import org.springframework.stereotype.Component;

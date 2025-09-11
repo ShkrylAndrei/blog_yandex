@@ -1,4 +1,4 @@
-package info.shkryl.SpringApplicationEvents;
+package info.shkryl.SpringApplicationEvents_rename;
 
 import java.time.LocalDateTime;
 
