@@ -152,13 +152,13 @@
         <dependency>
             <groupId>io.github.resilience4j</groupId>
             <artifactId>resilience4j-circuitbreaker</artifactId>
-            <version>2.0.0</version>
+            <version>1.7.1</version>
         </dependency>
 
         <dependency>
             <groupId>io.github.resilience4j</groupId>
             <artifactId>resilience4j-retry</artifactId>
-            <version>2.0.0</version> <!-- или та же версия, что и у circuitbreaker -->
+            <version>1.7.1</version> <!-- или та же версия, что и у circuitbreaker -->
         </dependency>
 
     </dependencies>
